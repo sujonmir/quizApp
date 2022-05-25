@@ -1,0 +1,64 @@
+* {
+    background: #ecf0f1;
+}
+
+form {
+    margin: 0 20px;
+}
+
+.question {
+    text-transform: capitalize;
+    font-size: 24px;
+}
+
+.option {
+    display: inline;
+    font-size: 18px;
+}
+
+.nameArea {
+    display: block;
+    width: 100%;
+    min-height: 50px;
+    padding-top: 50px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.nameTitle {
+    display: inline-block;
+}
+
+.nameClass {
+    width: 20%;
+    height: 30px;
+    font-size: 18px;
+    border: none;
+    border-bottom: 2px dashed #000;
+    outline: none !important;
+    padding: 5px 10px;
+    background: transparent;
+}
+
+.submit {
+    display: block;
+    margin: auto;
+    margin-bottom: 50px;
+    font-size: 36px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 20px 50px;
+    border: none;
+    outline: none !important;
+    background: #000000;
+    color: #fff;
+    border-radius: 50px 0px;
+    transition-duration: .2s;
+    transition-timing-function: linear;
+}
+
+.submit:hover {
+    background: #010137;
+    cursor: pointer;
+
+}
