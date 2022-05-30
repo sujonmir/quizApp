@@ -46,5 +46,5 @@ function result() {
         alert('Your device is not support localStorage!')
     }
 
-    document.getElementById('body').innerHTML = '<span class="allOutput">' + name + ', YOUR SCORE IS: <span class="scoreOut"><br>' + score + '</span><br>' + 'AND YOUR BEST SCORE IS: <span class="bestScoreOut"><br>' + localStorage.bestScore_ + '</span><br><a href="index.html" class="retake">retake</a></span>' + '<div class="ttaken">You took the test <span class="clickC">' + localStorage.clickcount + '</span> times in total<div>'
+    document.getElementById('body').innerHTML = '<span class="allOutput">' + name + ', YOUR SCORE IS: <span class="scoreOut"><br>' + score + '</span><br>' + 'AND YOUR Highest SCORE IS: <span class="bestScoreOut"><br>' + localStorage.bestScore_ + '</span><br><a href="index.html" class="retake">retake</a></span>' + '<div class="ttaken">You took the test <span class="clickC">' + localStorage.clickcount + '</span> times in total<div>'
 }
