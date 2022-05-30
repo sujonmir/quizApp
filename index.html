@@ -8,10 +8,9 @@
     <title>Quiz Application</title>
 </head>
 
-<body>
-    <script src="main.js"></script>
-</body>
-<form action="#">
+<body id="body">
+    
+<form name="myForm" id="myForm">
     <div class="nameArea">
         <h1 class="nameTitle">User Name: </h1>
         <input type="text" placeholder="ex: joe" id="name" class="nameClass" required>
@@ -93,18 +92,18 @@
     <label class="option" for="c7"> 3. Louvre Museum</label><br>
     <input type="radio" name="q7" id="74">
     <label class="option" for="74"> 4. Arc de Triomphe
- </label><br>
+    </label><br>
     <br>
     <!-- question:08 -->
     <h2 class="question">8) What Is The Largest Archipelago On Earth?</h2>
     <input type="radio" name="q8" id="81">
-    <label class="option" for="81">  1. the Philippines</label><br>
+    <label class="option" for="81"> 1. the Philippines</label><br>
     <input type="radio" name="q8" id="c8">
-    <label class="option" for="c8">  2. Indonesia
- </label><br>
+    <label class="option" for="c8"> 2. Indonesia
+    </label><br>
     <input type="radio" name="q8" id="83">
     <label class="option" for="83"> 3. the Bahamas
- </label><br>
+    </label><br>
     <input type="radio" name="q8" id="84">
     <label class="option" for="84"> 4. Finland</label><br>
     <br>
@@ -118,7 +117,7 @@
     <label class="option" for="93"> 3. Sandro Botticelli</label><br>
     <input type="radio" name="q9" id="94">
     <label class="option" for="94"> 4. Donatello
- </label><br>
+    </label><br>
     <br>
     <!-- question:10 -->
     <h2 class="question">10) Which Of The Following Bands Has Been Around For About 50 Years?</h2>
@@ -131,7 +130,9 @@
     <input type="radio" name="q10" id="c10">
     <label class="option" for="c10">4. The Rolling Stones</label><br>
     <br>
-    <input type="submit" name="submit" value="Submit Quiz" onclick="result()" class="submit">
+    <input type="submit" name="submit" value="Submit Quiz" onclick="result()" class="submit" id="submit">
 </form>
 
+<script src="main.js"></script>
+</body>
 </html>

@@ -1,3 +1,4 @@
+
 * {
     background: #ecf0f1;
 }
@@ -60,5 +61,82 @@ form {
 .submit:hover {
     background: #010137;
     cursor: pointer;
+}
+.allOutput{
+    font-size: 48px;
+    text-transform: uppercase;
+    display: block;
+    text-align: center;
+    /*font-weight: bold;*/
+    color: #1E231E;
+    font-family:  system-ui;
+    margin-top: 100px;
 
+}
+.scoreOut{
+    font-size: 60px;
+    color: #FF4E00;
+    font-weight: bold;
+}
+.bestScoreOut{
+    font-size: 60px;
+    color: #00FF00;
+    font-weight: bold;
+}
+.retake{
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding: 5px 20px;
+    background: #FFF8AE;
+    transition-duration: .2s;
+    transition-timing-function: linear;
+    border-radius: 5px;
+    border:2px dashed transparent;
+    color: #032451;
+    margin-top: 50px;
+    display: inline-block;
+    color: #FF4D4D;
+}
+.retake:hover{
+    color: #FF0000;
+    border:2px dashed #FF4D4D;
+}
+.ttaken{
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    color: #575757
+}
+.clickC{
+    color: #FF4D4D !important;
+    font-size: 24px;
+}
+@media (max-width: 500px){
+    .submit{
+        font-size: 18px;
+    }
+    .allOutput{
+        font-size: 24px;
+    }
+    .retake{
+        margin-top: 50px;
+        display: inline-block;
+    }
+}
+@media (max-width: 320px){
+    .submit{
+        font-size: 12px;
+    }
+    .allOutput{
+        font-size: 16px;
+        font-weight: bold;
+    }
+    .retake{
+        margin-top: 50px;
+        display: inline-block;
+    }
 }
